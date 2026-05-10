@@ -1,0 +1,73 @@
+<style>
+  :root {
+    --fixed-header-height: 8rem;
+  }
+
+  .header > .container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    width: 100%;
+    min-height: var(--fixed-header-height);
+    padding: 0 5%;
+    background: #ffffff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+  }
+
+  .header {
+    padding-top: var(--fixed-header-height);
+  }
+
+  .header .logo {
+    max-height: none;
+  }
+
+  .header .logo img {
+    max-height: calc(var(--fixed-header-height) - 1rem);
+    width: auto;
+  }
+
+  /* Keep menu visible; avoids hidden list on small screens from theme JS collapse */
+  .header .list--nav {
+    margin-bottom: 0 !important;
+  }
+
+  .header .button--nav {
+    display: none !important;
+  }
+
+  .header .nav--header {
+    overflow: visible;
+  }
+
+  @media screen and (max-width: 39.99em) {
+    .header > .container {
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      padding-top: 0.4rem;
+      padding-bottom: 0.4rem;
+    }
+
+    .header .nav--header {
+      width: 100%;
+      text-align: left;
+      align-items: flex-start;
+    }
+
+    .header .item--nav {
+      display: inline-block;
+      margin-right: 0.6rem;
+      margin-left: 0;
+    }
+  }
+
+  @media screen and (min-width: 75em) {
+    .header > .container {
+      padding-left: calc((100% - 1200px) / 2);
+      padding-right: calc((100% - 1200px) / 2);
+    }
+  }
+</style>

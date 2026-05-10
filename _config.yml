@@ -26,6 +26,7 @@ description: >-
   Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
+logo: /assets/cropped-Logo-prueba-1.png
 
 navigation_header:
   - title: Home
