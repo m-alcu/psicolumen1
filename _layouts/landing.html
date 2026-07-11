@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title }} | {{ site.title }}</title>
+  <meta name="description" content="{{ page.description | default: site.description | strip_newlines | truncate: 160 }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ '/assets/css/landing.css' | relative_url }}">
+</head>
+<body class="landing">
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="{{ '/' | relative_url }}">
+        <img src="{{ site.logo | relative_url }}" alt="{{ site.title }}" class="brand-logo">
+        <span class="brand-name">{{ site.title }}</span>
+      </a>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-hidden="true">
+      <label for="nav-toggle" class="nav-toggle-label" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </label>
+      <nav class="site-nav" aria-label="Navegación principal">
+        <ul>
+          {% for item in site.navigation_header %}
+          <li><a href="{{ item.url | relative_url }}" {% if page.url == item.url %}class="active"{% endif %}>{{ item.title }}</a></li>
+          {% endfor %}
+          <li><a href="#contacto" class="nav-cta">Pide tu cita</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    {{ content }}
+  </main>
+
+  <footer class="site-footer" id="contacto">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <img src="{{ site.logo | relative_url }}" alt="" class="brand-logo">
+        <p>{{ site.title }} · Psicología con base científica y trato humano.</p>
+      </div>
+      <div class="footer-social">
+        <a href="#" aria-label="Instagram">Instagram</a>
+        <a href="#" aria-label="Facebook">Facebook</a>
+        <a href="#" aria-label="YouTube">YouTube</a>
+        <a href="#" aria-label="LinkedIn">LinkedIn</a>
+        <a href="mailto:{{ site.email }}" aria-label="Email">Email</a>
+      </div>
+      <nav class="footer-legal" aria-label="Enlaces legales">
+        <a href="#">Aviso legal</a>
+        <a href="#">Política de privacidad</a>
+        <a href="#">Política de cookies</a>
+      </nav>
+      <p class="footer-copy">© {{ 'now' | date: '%Y' }} {{ site.title }}. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+</body>
+</html>

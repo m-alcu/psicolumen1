@@ -18,24 +18,23 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
+title: Psicolumen
 email: your-email@example.com
 description: >-
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Psicolumen — psicólogos especializados en ansiedad, estrés y bienestar
+  emocional. Terapia presencial y online con un enfoque integrador.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 logo: /assets/cropped-Logo-prueba-1.png
 
 navigation_header:
-  - title: Home
+  - title: Inicio
     url: /
-  - title: Posts
+  - title: Blog
     url: /blog/
-  - title: Categories
+  - title: Categorías
     url: /categories/
-  - title: About
+  - title: Sobre nosotros
     url: /about/
 
 # Build settings

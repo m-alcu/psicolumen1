@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:centrodepsicologiaintegrativa.com)",
+      "Bash(curl -sL 'https://centrodepsicologiaintegrativa.com/' -A 'Mozilla/5.0 \\(X11; Linux x86_64\\)' -o home.html)",
+      "Bash(curl -sL 'https://centrodepsicologiaintegrativa.com/wp-content/uploads/elementor/css/global.css' -o global.css)",
+      "Bash(python3 -c ' *)",
+      "Bash(python3 -m http.server 4400 --bind 127.0.0.1)",
+      "Bash(firefox --headless --screenshot /tmp/claude-1000/-home-marti-proy-jekyll-psicolumen1/f0c9576d-7367-4204-b538-62b98491c030/scratchpad/landing.png --window-size=1280,2400 http://127.0.0.1:4400/)",
+      "Bash(kill %1)"
+    ]
+  }
+}
