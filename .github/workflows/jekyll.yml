@@ -10,7 +10,7 @@ permissions:
   pages: write
   id-token: write
 
-# Un despliegue a la vez; no se cancelan los que ya estan en curso..
+# Un despliegue a la vez; no se cancelan los que ya estan en curso...
 concurrency:
   group: pages
   cancel-in-progress: false
