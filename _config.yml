@@ -24,7 +24,7 @@ description: >-
   Psicolumen — psicólogos especializados en ansiedad, estrés y bienestar
   emocional. Terapia presencial y online con un enfoque integrador.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://m-alcu.github.io" # the base hostname & protocol for your site
+url: "https://psicolumen.com" # the base hostname & protocol for your site
 logo: /assets/cropped-Logo-prueba-1.png
 
 navigation_header:
