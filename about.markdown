@@ -41,5 +41,5 @@ Nuestro equipo psicológico cuenta de una formación tanto en el modelo cognitiv
 
 
 
-¿Quieres conocernos en persona? [Solicita tu primera sesión de valoración](/#contacto),
+¿Quieres conocernos en persona? [Solicita tu primera sesión de valoración]({{ '/' | relative_url }}#contacto),
 sin compromiso.
