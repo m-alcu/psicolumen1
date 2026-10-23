@@ -7,7 +7,11 @@
       "Bash(python3 -c ' *)",
       "Bash(python3 -m http.server 4400 --bind 127.0.0.1)",
       "Bash(firefox --headless --screenshot /tmp/claude-1000/-home-marti-proy-jekyll-psicolumen1/f0c9576d-7367-4204-b538-62b98491c030/scratchpad/landing.png --window-size=1280,2400 http://127.0.0.1:4400/)",
-      "Bash(kill %1)"
+      "Bash(kill %1)",
+      "Bash(curl -sL https://psicolumen.com/politica-de-privacidad)",
+      "Bash(sed -n 's/.*<title>\\\\\\(.*\\\\\\)<\\\\/title>.*/\\\\1/p')",
+      "Bash(curl -sL https://psicolumen.com/politica-de-privacidad -o /tmp/claude-1000/-home-marti-proy-jekyll-psicolumen1/aee3f401-c561-48d5-b2e1-4e1fee286517/scratchpad/privacidad.html)",
+      "Bash(python3 -)"
     ]
   }
 }

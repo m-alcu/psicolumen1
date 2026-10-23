@@ -1,0 +1,41 @@
+---
+layout: landing
+---
+<section class="page-hero">
+  <div class="container">
+    <h1>{{ page.title }}</h1>
+    <div class="page-intro">{{ content }}</div>
+  </div>
+  <div class="wave" aria-hidden="true">
+    <svg viewBox="0 0 1440 70" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0,40 C240,80 480,0 720,30 C960,60 1200,10 1440,40 L1440,70 L0,70 Z" fill="#ffffff"/>
+    </svg>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="post-grid">
+      {% for post in site.posts %}
+      <article class="card post-card">
+        {% if post.image %}
+        <div class="card-media"><img src="{{ post.image | relative_url }}" alt="{{ post.image_alt }}"></div>
+        {% else %}
+        <div class="card-media tint-blue">📝</div>
+        {% endif %}
+        <div class="card-body">
+          <p class="post-meta">
+            <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%d/%m/%Y" }}</time>
+            {% for cat in post.categories %}
+            <span class="tag">{{ cat }}</span>
+            {% endfor %}
+          </p>
+          <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+          <p>{{ post.excerpt | strip_html | truncate: 140 }}</p>
+          <a href="{{ post.url | relative_url }}" class="card-link">Leer más →</a>
+        </div>
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>

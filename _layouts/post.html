@@ -1,0 +1,29 @@
+---
+layout: landing
+---
+<section class="page-hero">
+  <div class="container">
+    <p class="post-meta on-hero">
+      <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d/%m/%Y" }}</time>
+      {% for cat in page.categories %}
+      <span class="tag">{{ cat }}</span>
+      {% endfor %}
+    </p>
+    <h1>{{ page.title }}</h1>
+  </div>
+  <div class="wave" aria-hidden="true">
+    <svg viewBox="0 0 1440 70" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0,40 C240,80 480,0 720,30 C960,60 1200,10 1440,40 L1440,70 L0,70 Z" fill="#ffffff"/>
+    </svg>
+  </div>
+</section>
+
+<article class="section">
+  <div class="container prose">
+    {{ content }}
+  </div>
+</article>
+
+<section class="container post-footer">
+  <a href="{{ '/blog/' | relative_url }}" class="btn btn-outline">← Volver al blog</a>
+</section>

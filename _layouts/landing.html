@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="{{ '/assets/css/landing.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/landing.css' | relative_url }}?v={{ site.time | date: '%s' }}">
 </head>
 <body class="landing">
 
@@ -27,7 +27,7 @@
           {% for item in site.navigation_header %}
           <li><a href="{{ item.url | relative_url }}" {% if page.url == item.url %}class="active"{% endif %}>{{ item.title }}</a></li>
           {% endfor %}
-          <li><a href="#contacto" class="nav-cta">Pide tu cita</a></li>
+          <li><a href="{{ '/#contacto' | relative_url }}" class="nav-cta">Pide tu cita</a></li>
         </ul>
       </nav>
     </div>
@@ -37,7 +37,7 @@
     {{ content }}
   </main>
 
-  <footer class="site-footer" id="contacto">
+  <footer class="site-footer">
     <div class="container footer-inner">
       <div class="footer-brand">
         <img src="{{ site.logo | relative_url }}" alt="" class="brand-logo">
@@ -48,11 +48,11 @@
         <a href="#" aria-label="Facebook">Facebook</a>
         <a href="#" aria-label="YouTube">YouTube</a>
         <a href="#" aria-label="LinkedIn">LinkedIn</a>
-        <a href="mailto:{{ site.email }}" aria-label="Email">Email</a>
+        <a href="mailto:{{ site.email }}">{{ site.email }}</a>
       </div>
       <nav class="footer-legal" aria-label="Enlaces legales">
         <a href="#">Aviso legal</a>
-        <a href="#">Política de privacidad</a>
+        <a href="{{ '/politica-de-privacidad/' | relative_url }}">Política de privacidad</a>
         <a href="#">Política de cookies</a>
       </nav>
       <p class="footer-copy">© {{ 'now' | date: '%Y' }} {{ site.title }}. Todos los derechos reservados.</p>

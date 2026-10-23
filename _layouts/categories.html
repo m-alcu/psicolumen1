@@ -1,0 +1,35 @@
+---
+layout: landing
+---
+<section class="page-hero">
+  <div class="container">
+    <h1>{{ page.title }}</h1>
+    <p class="page-subtitle">Explora los artículos por temática.</p>
+  </div>
+  <div class="wave" aria-hidden="true">
+    <svg viewBox="0 0 1440 70" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0,40 C240,80 480,0 720,30 C960,60 1200,10 1440,40 L1440,70 L0,70 Z" fill="#ffffff"/>
+    </svg>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    {% assign sorted_categories = site.categories | sort %}
+    {% for category in sorted_categories %}
+    {% assign cat_name = category[0] %}
+    {% assign cat_posts = category[1] %}
+    <div class="category-block" id="{{ cat_name | slugify }}">
+      <h2><span class="tag tag-lg">{{ cat_name }}</span> <span class="cat-count">{{ cat_posts | size }} artículo{% if cat_posts.size != 1 %}s{% endif %}</span></h2>
+      <ul class="category-list">
+        {% for post in cat_posts %}
+        <li>
+          <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%d/%m/%Y" }}</time>
+          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+    {% endfor %}
+  </div>
+</section>

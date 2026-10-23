@@ -113,6 +113,23 @@ Resultado esperado: codigo HTTP 200 en paginas existentes.
 
 ## Solucion de problemas
 
+### bundle: command not found despues de instalar bundler
+
+Sin permisos de root, `gem install bundler` instala en el directorio de gems del usuario, que puede no estar en el PATH. El propio comando lo avisa:
+
+	WARNING:  You don't have /home/marti/.local/share/gem/ruby/3.3.0/bin in your PATH,
+		  gem executables (bundle, bundler) will not run.
+
+Anade esa ruta al PATH en ~/.bashrc (la version de Ruby se resuelve sola, asi sigue valiendo tras actualizar):
+
+	# ruby gems (usuario)
+	export PATH="$(ruby -e 'require "rubygems"; print Gem.user_dir')/bin:$PATH"
+
+Recarga la shell y verifica:
+
+	source ~/.bashrc
+	bundle -v
+
 ### Error de permisos al instalar gems
 
 Evita usar sudo si es posible. Usa un gestor de Ruby (rbenv/asdf) o instala en ruta local con Bundler:

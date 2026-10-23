@@ -1,6 +1,5 @@
 ---
 layout: categories
-title: Categories
+title: Categorías
 permalink: /categories/
-aside: true
 ---
