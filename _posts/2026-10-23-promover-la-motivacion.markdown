@@ -2,7 +2,7 @@
 layout: post
 title:  "¿Cómo promover la motivación en nosotros y nuestros hijos?"
 date:   2026-10-23 12:00:00 +0200
-categories: crianza
+categories: [adolescentes, general, niños]
 image: /assets/motivacion.webp
 image_alt: "Una niña disfrazada de superheroína, con capa y antifaz, saca músculo sonriendo"
 excerpt: "La motivación es uno de los factores que más influyen en el logro de nuestros objetivos. Pero ¿qué es exactamente y cómo se promueve en casa?"

@@ -2,7 +2,7 @@
 layout: post
 title:  "Verano y conflictos"
 date:   2026-05-10 10:14:46 +0200
-categories: adolescentes
+categories: ["crecimiento personal", self-improvement]
 image: /assets/verano-y-conflictos.jpg
 image_alt: "Una pareja discute en la playa mientras sus dos hijos, incómodos, miran hacia otro lado"
 excerpt: "Llega el verano, las vacaciones y aumenta el tiempo que estamos en familia, en pareja, con amigos: también crece la posibilidad de que aparezcan conflictos."

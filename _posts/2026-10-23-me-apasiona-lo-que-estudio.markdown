@@ -2,7 +2,7 @@
 layout: post
 title:  "¿Me apasiona lo que estudio?"
 date:   2026-10-23 14:00:00 +0200
-categories: crianza
+categories: [aprendizaje, confianza, niños]
 image: /assets/pasion-estudio.jpg
 image_alt: "Ilustración de un niño sonriente haciendo los deberes en su escritorio, con libros y un flexo"
 excerpt: "La neurociencia muestra el papel de la emoción en el aprendizaje: resulta más sencillo recordar aquello que nos apasiona. ¿Qué ocurre entonces con el interés por los estudios?"

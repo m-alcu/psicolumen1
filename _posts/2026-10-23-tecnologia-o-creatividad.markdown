@@ -2,7 +2,7 @@
 layout: post
 title:  "¿Tecnología o creatividad?"
 date:   2026-10-23 13:00:00 +0200
-categories: crianza
+categories: adolescentes
 image: /assets/tecnologia-creat.webp
 image_alt: "Ilustración dividida entre un artista pintando en su estudio y un rostro digital rodeado de circuitos e iconos de inteligencia artificial"
 excerpt: "No es la tecnología sino su uso lo que limita la creatividad. Una reflexión sobre la sobreestimulación, el móvil distractor y los juguetes que no lo eran."

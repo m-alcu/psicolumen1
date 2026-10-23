@@ -2,7 +2,7 @@
 layout: post
 title:  "Educar desde lo positivo"
 date:   2026-10-23 11:00:00 +0200
-categories: crianza
+categories: [adolescentes, autoestima, niños]
 image: /assets/educar-en-positivo.jpg
 image_alt: "Una mano dibuja con tiza una cara sonriente en una pizarra rodeada de tizas de colores"
 excerpt: "Corregir errores forma parte de la tarea de ser padres, pero centrar en ello toda la educación no suele dar los resultados esperados."

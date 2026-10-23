@@ -2,7 +2,7 @@
 layout: post
 title:  "Propósitos para el nuevo año: ¿cómo cumplirlos?"
 date:   2026-10-23 15:00:00 +0200
-categories: crianza
+categories: [autoestima, "crecimiento personal"]
 image: /assets/nuevo.webp
 image_alt: "Un despertador dorado marca casi las doce mientras estallan fuegos artificiales al fondo"
 excerpt: "Conforme avanza el año, los buenos propósitos se van diluyendo. Unos criterios sencillos para que lleguen a buen término."
