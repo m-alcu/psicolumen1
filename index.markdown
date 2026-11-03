@@ -122,7 +122,7 @@ description: Psicolumen — psicólogos especializados en ansiedad y bienestar e
   <div class="container">
     <div class="cta-band">
       <h2>¿Lista/o para empezar a sentirte mejor?</h2>
-      <p>La primera sesión de valoración es gratuita y sin compromiso. Cuéntanos qué te pasa y veremos juntos cómo podemos ayudarte.</p>
+      <p>Contacta con nosotros, cuéntanos lo que te ocurre y te proporcionaremos un acompañamiento para poder superar las dificultades</p>
     </div>
   </div>
 </section>

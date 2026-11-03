@@ -33,8 +33,8 @@ Nuestro equipo psicológico cuenta de una formación tanto en el modelo cognitiv
     </div>
     <div class="team-info">
       <h3>Inma</h3>
-      <p class="team-role">Graduada en Psicología</p>
-      <p class="team-col">Col. nº 26380</p>
+      <p class="team-role">Psicóloga General Sanitaria</p>
+      <p class="team-col">Colegiada COPC: 24855</p>
     </div>
   </article>
 </div>
