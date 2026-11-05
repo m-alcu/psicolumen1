@@ -60,22 +60,22 @@ description: Psicolumen — psicólogos especializados en ansiedad y bienestar e
       <article class="card">
         <div class="card-media tint-blue">🛋️</div>
         <div class="card-body">
-          <h3>Terapia presencial y online</h3>
-          <p>Sesiones individuales adaptadas a ti, en consulta o por videollamada, con la misma cercanía y confidencialidad.</p>
+          <h3>Psicoterapia de adultos</h3>
+          <p>Se realizarán con un enfoque integrador humanista centrado en cada persona y en los objetivos psicoterapéuticos que quiera lograr.</p>
         </div>
       </article>
       <article class="card">
-        <div class="card-media tint-sky">🧘</div>
+        <div class="card-media tint-sky">🧸</div>
         <div class="card-body">
-          <h3>Programa para la ansiedad</h3>
-          <p>Un itinerario estructurado con herramientas prácticas para entender y regular la ansiedad paso a paso.</p>
+          <h3>Psicoterapia infanto-juvenil</h3>
+          <p>Proponemos un enfoque integrador que acompañe tanto a los niños y adolescentes como a sus familias, resolviendo las dificultades y fortaleciendo los vínculos.</p>
         </div>
       </article>
       <article class="card">
-        <div class="card-media tint-aqua">🌿</div>
+        <div class="card-media tint-aqua">📚</div>
         <div class="card-body">
-          <h3>Bienestar en la naturaleza</h3>
-          <p>Actividades y talleres al aire libre que combinan psicología, movimiento y conexión con el entorno.</p>
+          <h3>Diagnóstico y acompañamiento en dificultades de aprendizaje</h3>
+          <p>Nuestro enfoque mantiene una mirada integral, no solo desde un punto de vista neuropsicológico, interviniendo tanto en la dificultad como en sus impactos emocionales y en la autoestima.</p>
         </div>
       </article>
     </div>
@@ -90,11 +90,11 @@ description: Psicolumen — psicólogos especializados en ansiedad y bienestar e
            alt="Psicóloga tomando notas durante una sesión de evaluación">
     </div>
     <div>
-      <h2>Un enfoque integrador, con base científica</h2>
-      <p>No creemos en recetas iguales para todo el mundo. Combinamos herramientas de distintas corrientes con evidencia — terapia cognitivo-conductual, aceptación y compromiso, mindfulness — para diseñar un proceso a tu medida.</p>
+      <h2>Un enfoque integrador humanista y psicocorporal</h2>
+      <p>Nuestro enfoque se centra en la persona y en su malestar psicológico. Para ello utilizamos la Psicoterapia Integradora Humanista combinada con el modelo somatosensorial para abordar todas las facetas de la persona: cognitiva, emocional, conductual y corporal.</p>
       <ul class="checklist">
-        <li>Evaluación inicial para entender tu situación.</li>
-        <li>Plan de trabajo claro, con objetivos concretos.</li>
+        <li>Evaluación inicial para entender su situación.</li>
+        <li>Plan de trabajo basado en los objetivos que se quieran alcanzar.</li>
         <li>Seguimiento y ajustes durante todo el proceso.</li>
       </ul>
       <a href="#" class="btn btn-outline">Descubre el método</a>
