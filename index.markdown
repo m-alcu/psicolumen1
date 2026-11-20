@@ -31,8 +31,12 @@ description: Psicolumen — psicólogos especializados en ansiedad y bienestar e
 <!-- ============ PROBLEMA / EMPATÍA ============ -->
 <section class="section">
   <div class="container">
-    <h2 class="section-title">Nuestros valores</h2>
-    <p class="section-intro">QEntre nuestros valores podemos destacar:</p>
+    <h2 class="section-title">Una mirada integradora, un camino hacia tu bienestar</h2>
+    <p class="lead">La psicoterapia integradora humanista entiende que cada persona es única y que su historia, emociones, pensamientos, cuerpo y relaciones forman parte de un todo.
+
+Por eso, trabajamos desde diferentes enfoques terapéuticos, adaptando las herramientas y el acompañamiento a tus necesidades, tu ritmo y tu momento vital.
+
+Porque no hay una única manera de sanar, comprenderse y crecer. Hay un camino propio para cada persona.</p>
     <div class="feature-row">
       <div class="feature-media">
         <img src="{{ '/assets/manos.webp' | relative_url }}"
