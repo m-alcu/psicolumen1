@@ -8,9 +8,9 @@ description: Psicolumen — psicólogos especializados en ansiedad y bienestar e
 <section class="hero">
   <div class="container hero-grid">
     <div class="hero-text">
-      <p class="hero-kicker">Equipo de Psicolumen</p>
-      <h1>Psicología para recuperar tu calma y tu claridad</h1>
-      <p class="lead">Acompañamiento profesional para la ansiedad, el estrés y el malestar emocional, con un enfoque integrador y cercano.</p>
+      <p class="hero-kicker">Bienvenido al Centro de Psicología Lumen</p>
+      <h1>Acompañamiento psicológico con un enfoque integrador y cercano</h1>
+      <p class="lead">Nuestro objetivo es ofrecer una atención integral ante malestares de tipo psíquico que impiden o distorsionan la vida cotidiana, contemplando a cada persona como un ser humano único e irrepetible.</p>
       <div class="hero-actions">
         <a href="#contacto" class="btn btn-primary">Reserva tu primera sesión</a>
         <a href="#servicios" class="btn btn-outline">Conoce nuestros servicios</a>
@@ -31,8 +31,8 @@ description: Psicolumen — psicólogos especializados en ansiedad y bienestar e
 <!-- ============ PROBLEMA / EMPATÍA ============ -->
 <section class="section">
   <div class="container">
-    <h2 class="section-title">Cuando la mente no descansa, todo pesa más</h2>
-    <p class="section-intro">Quizá notas que las preocupaciones se repiten en bucle, que el cuerpo está siempre en tensión o que has dejado de disfrutar de cosas que antes te llenaban. No estás sola/o: son señales muy comunes, y tienen solución.</p>
+    <h2 class="section-title">Nuestros valores</h2>
+    <p class="section-intro">QEntre nuestros valores podemos destacar:</p>
     <div class="feature-row">
       <div class="feature-media">
         <img src="{{ '/assets/manos.webp' | relative_url }}"
@@ -40,10 +40,11 @@ description: Psicolumen — psicólogos especializados en ansiedad y bienestar e
       </div>
       <div>
         <ul class="checklist">
-          <li>Preocupación constante que cuesta apagar.</li>
-          <li>Dificultad para dormir o descansar de verdad.</li>
-          <li>Irritabilidad, agotamiento o sensación de bloqueo.</li>
-          <li>Evitar situaciones por miedo o inseguridad.</li>
+          <li>Escucha y empatía</li>
+          <li>Respeto por las personas</li>
+          <li>Honestidad y compromiso</li>
+          <li>Trabajo en equipo y colaboración interdisciplinar</li>
+          <li>Formación permanente</li>
         </ul>
         <a href="#contacto" class="btn btn-primary">Da el primer paso</a>
       </div>

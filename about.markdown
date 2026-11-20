@@ -24,7 +24,9 @@ Creemos que cada ser humano es alguien único e irrepetible. Por ello ante el su
 
 ## El equipo
 
-Nuestro equipo psicológico cuenta de una formación tanto en el modelo cognitivo-conductual como en el modelo humanista. Se parte de la demanda de la persona donde plantea el malestar o la problemática que le ha conducido a la consulta. Durante las primeras sesiones se dedica una mayor atención a poder establecer un diagnóstico, tomando como base entrevistas, cuestionarios o pruebas para poder establecer los objetivos de mejora que servirán de dirección al proceso terapéutico. Esto no quiere decir que se deje de prestar atención a cuantas inquietudes se puedan plantear a lo largo del proceso y que puedan incluso conducir a algún cambio en estos objetivos. Se unen a los servicios de tipo psicológico los de atención pedagógica para poder realizar tratamientos lo más integrales posible en el caso de niños y adolescentes.
+Desde siempre me interesó la dimensión psicológica del ser humano pero a medida que fui avanzando en su conocimiento, encontré en la psicología humanista, y posteriormente en el modelo de la Psicoterapia Integradora Humanista, una visión de la persona acorde a mis convicciones. Desde allí encontré los fundamentos para poder contemplar al ser humano en todas sus facetas conductual, cognitiva, emocional, corporal e, incluso, aquellos aspectos más trascendentes que forman parte de la persona. También en la percepción del psicoterapeuta como un acompañante y guía respetuoso y empático para que el ser humano pueda encontrar y construir recursos que le ayuden a superar el sufrimiento psicológico.
+
+Estoy muy agradecida de haber podido construir con ello un proyecto de vida que me apasiona tanto profesional como personalmente.
 
 <div class="team-list">
   <article class="team-member">
