@@ -34,7 +34,7 @@ Estoy muy agradecida de haber podido construir con ello un proyecto de vida que 
       <img src="{{ '/assets/inma.jpeg' | relative_url }}" alt="Inma, graduada en Psicología">
     </div>
     <div class="team-info">
-      <h3>Inma</h3>
+      <h3>Inma Egurrola</h3>
       <p class="team-role">Psicóloga General Sanitaria</p>
       <p class="team-col">Colegiada COPC: 24855</p>
     </div>
