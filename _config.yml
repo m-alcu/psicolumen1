@@ -21,8 +21,20 @@
 title: Psicolumen
 email: info@psicolumen.com
 description: >-
-  Psicolumen — psicólogos especializados en ansiedad, estrés y bienestar
-  emocional. Terapia presencial y online con un enfoque integrador.
+  Psicolumen — centro de psicología en Castelldefels especializado en ansiedad,
+  estrés y bienestar emocional. Terapia presencial y online con un enfoque integrador.
+
+# Datos del centro (deben coincidir con la ficha de Google Business)
+business:
+  name: Psicolumen
+  phone: "+34936839058"
+  street: Calle Arcadi Balaguer, 8, Local
+  postal_code: "08860"
+  city: Castelldefels
+  region: Barcelona
+  country: ES
+  maps_url: "https://www.google.com/maps/search/?api=1&query=Calle+Arcadi+Balaguer+8%2C+08860+Castelldefels"
+  maps_embed: "https://maps.google.com/maps?q=Calle%20Arcadi%20Balaguer%208%2C%2008860%20Castelldefels&z=16&output=embed"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://psicolumen.com" # the base hostname & protocol for your site
 logo: /assets/cropped-Logo-prueba-1.png

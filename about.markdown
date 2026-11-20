@@ -2,10 +2,11 @@
 layout: page
 title: Sobre nosotros
 subtitle: Psicología rigurosa, cercana y a tu medida.
+description: Conoce al equipo de Psicolumen, psicólogos colegiados en Castelldefels especializados en ansiedad, estrés y bienestar emocional.
 permalink: /about/
 ---
 
-En **Psicolumen** somos un equipo de psicólogos colegiados especializados en
+En **Psicolumen** somos un equipo de psicólogos colegiados en Castelldefels especializados en
 ansiedad, estrés y bienestar emocional. Trabajamos con un enfoque integrador:
 combinamos herramientas de distintas corrientes con evidencia científica para
 diseñar un proceso adaptado a cada persona.

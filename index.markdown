@@ -1,7 +1,7 @@
 ---
 layout: landing
-title: Inicio
-description: Psicolumen — psicólogos especializados en ansiedad y bienestar emocional. Terapia presencial y online.
+title: Psicólogos en Castelldefels
+description: Psicolumen — centro de psicología en Castelldefels. Psicólogos especializados en ansiedad y bienestar emocional. Terapia presencial y online.
 ---
 
 <!-- ============ HERO ============ -->
@@ -9,7 +9,7 @@ description: Psicolumen — psicólogos especializados en ansiedad y bienestar e
   <div class="container hero-grid">
     <div class="hero-text">
       <p class="hero-kicker">Bienvenido al Centro de Psicología Lumen</p>
-      <h1>Acompañamiento psicológico con un enfoque integrador y cercano</h1>
+      <h1>Psicólogos en Castelldefels: acompañamiento psicológico integrador y cercano</h1>
       <p class="lead">Nuestro objetivo es ofrecer una atención integral ante malestares de tipo psíquico que impiden o distorsionan la vida cotidiana, contemplando a cada persona como un ser humano único e irrepetible.</p>
       <div class="hero-actions">
         <a href="#contacto" class="btn btn-primary">Reserva tu primera sesión</a>
@@ -18,7 +18,7 @@ description: Psicolumen — psicólogos especializados en ansiedad y bienestar e
     </div>
     <figure class="hero-figure">
       <img src="{{ '/assets/bienvenidos.webp' | relative_url }}"
-           alt="Fachada de Lumen, Centre de Psicologia">
+           alt="Fachada de Lumen, Centre de Psicologia en Castelldefels">
     </figure>
   </div>
   <div class="wave" aria-hidden="true">
@@ -60,7 +60,7 @@ Porque no hay una única manera de sanar, comprenderse y crecer. Hay un camino p
 <section class="section bg-soft" id="servicios">
   <div class="container">
     <h2 class="section-title">Nuestra forma de ayudarte</h2>
-    <p class="section-intro">Tres caminos, un mismo objetivo: que vuelvas a sentirte bien contigo y con tu vida.</p>
+    <p class="section-intro">Psicología en Castelldefels, presencial y online. Tres caminos, un mismo objetivo: que vuelvas a sentirte bien contigo y con tu vida.</p>
     <div class="cards">
       <article class="card">
         <div class="card-media tint-blue">🛋️</div>
@@ -116,7 +116,7 @@ Porque no hay una única manera de sanar, comprenderse y crecer. Hay un camino p
     </div>
     <div>
       <h2>Encantados de conocerte</h2>
-      <p>Somos un equipo de psicólogos colegiados con años de experiencia acompañando procesos de ansiedad, estrés y crecimiento personal. Creemos en una psicología rigurosa, pero también humana: la relación de confianza es la base de cualquier cambio.</p>
+      <p>Somos un equipo de psicólogos colegiados en Castelldefels con años de experiencia acompañando procesos de ansiedad, estrés y crecimiento personal. Creemos en una psicología rigurosa, pero también humana: la relación de confianza es la base de cualquier cambio.</p>
       <a href="{{ '/about/' | relative_url }}" class="btn btn-outline">Conoce al equipo</a>
     </div>
   </div>
@@ -136,7 +136,7 @@ Porque no hay una única manera de sanar, comprenderse y crecer. Hay un camino p
 <section class="section bg-soft" id="contacto">
   <div class="container">
     <h2 class="section-title">Hablemos</h2>
-    <p class="section-intro">Escríbenos o llámanos y te respondemos lo antes posible, sin compromiso.</p>
+    <p class="section-intro">Escríbenos, llámanos o ven a vernos a nuestro centro de Castelldefels. Te respondemos lo antes posible, sin compromiso.</p>
     <div class="contact-list">
       <a class="contact-item" href="https://wa.me/34609166033" target="_blank" rel="noopener">
         <span class="contact-icon tint-aqua" aria-hidden="true">
@@ -166,6 +166,19 @@ Porque no hay una única manera de sanar, comprenderse y crecer. Hay un camino p
         <span class="contact-label">Correo</span>
         <span class="contact-value">{{ site.email }}</span>
       </a>
+      <a class="contact-item" href="{{ site.business.maps_url }}" target="_blank" rel="noopener">
+        <span class="contact-icon tint-aqua" aria-hidden="true">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg">
+            <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/>
+            <circle cx="12" cy="10" r="3"/>
+          </svg>
+        </span>
+        <span class="contact-label">Dirección</span>
+        <span class="contact-value">{{ site.business.street }}<br>{{ site.business.postal_code }} {{ site.business.city }}</span>
+      </a>
+    </div>
+    <div class="contact-map">
+      <iframe src="{{ site.business.maps_embed }}" title="Mapa: {{ site.business.name }}, {{ site.business.street }}, {{ site.business.city }}" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
   </div>
 </section>
